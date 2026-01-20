@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM 'http://java.sun.com/dtd/properties.dtd'>
 <properties>
-
-    <entry key='web.path'>./traccar-web/simple</entry>
+    <entry key='web.address'>0.0.0.0</entry>
+    <entry key='web.path'>./traccar-web/build</entry>
     <entry key='web.debug'>true</entry>
     <entry key='web.console'>true</entry>
 
@@ -15,12 +15,11 @@
     <entry key='logger.fullStackTraces'>true</entry>
 
     <entry key='mail.debug'>true</entry>
-
-    <entry key='database.driver'>org.h2.Driver</entry>
-    <entry key='database.url'>jdbc:h2:./target/database</entry>
-    <entry key='database.user'>sa</entry>
-    <entry key='database.password'></entry>
-
+    <entry key='database.driver'>com.mysql.cj.jdbc.Driver</entry>
+    <entry key='database.url'>jdbc:mysql://207.180.240.204/zen_traccar?zeroDateTimeBehavior=round&amp;serverTimezone=UTC&amp;allowPublicKeyRetrieval=true&amp;useSSL=false&amp;allowMultiQueries=true&amp;autoReconnect=true&amp;useUnicode=yes&amp;characterEncoding=UTF-8&amp;sessionVariables=sql_mode=''</entry>
+    <entry key='database.user'>root</entry>
+    <entry key='database.password'>nEwyOrk89!~</entry>
+		    
     <!--<entry key='server.instantAcknowledgement'>true</entry>
     <entry key='server.buffering.threshold'>5000</entry>-->
 

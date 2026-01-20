@@ -24,7 +24,7 @@ public class PortConfigSuffix extends ConfigSuffix<Integer> {
     private static final Map<String, Integer> PORTS = new HashMap<>();
 
     static {
-        PORTS.put("gps103", 5001);
+        PORTS.put("gps103", 5501);
         PORTS.put("tk103", 5002);
         PORTS.put("gl100", 5003);
         PORTS.put("gl200", 5004);
