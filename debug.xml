@@ -26,4 +26,11 @@
     <entry key='atrack.custom'>true</entry>
     <entry key='intellitrac.port'>6037</entry>
 
+    <entry key='logger.console'>true</entry>
+    <entry key='logger.file'>true</entry>
+    <entry key='logger.level'>4</entry>
+
+    <entry key='server.debug'>true</entry>
+    <entry key='web.idleTimeout'>120000</entry>
+    <entry key='web.timeout'>1200000</entry>
 </properties>
